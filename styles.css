@@ -1,0 +1,33 @@
+body{
+    background: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input{
+    font-size: 20px;
+    font-style: normal;
+    border: 0;
+    border-bottom: 5px;
+    background-color: #c7c7c7;
+    
+}
+p{ padding-left: 10px;}
+img{height: 80px;}
+.w50{width: 50%;}
+.w100{width: 95%;}
+.left{float: left;}
+.right{float: right;}
+h1{font-family: 'Sansita Swashed', cursive;}
+button{ background-color: #6e6e6e;}
+
+
+
+.postcard{
+    background: white;
+    width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+.footer{
+    text-align: center;
+    padding: 10px
+}
