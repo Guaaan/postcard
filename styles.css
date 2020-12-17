@@ -2,26 +2,37 @@ body{
     background: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-input{
-    font-size: 20px;
-    font-style: normal;
-    border: 0;
-    border-bottom: 5px;
-    background-color: #c7c7c7;
-    
-}
+
 p{ padding-left: 10px;}
-img{height: 80px;}
-.w50{width: 50%;}
-.w100{width: 95%;}
-.left{float: left;}
-.right{float: right;}
+.postcard-header img{
+    height: 80px;
+    float: right;
+}
+
+
+.left-part{
+    float: left;
+    width: 50%;
+}
+.right-part{
+    float: right;
+    width: 50%;
+
+}
+input{
+    font-size: 18px;
+    float: right;
+}
 h1{font-family: 'Sansita Swashed', cursive;}
-button{ background-color: #6e6e6e;}
+button{ background-color: #6e6e6e;
+text-align: center;}
 
-
-
+.postcard-header{
+    overflow: hidden;
+}
+.postcard-body{overflow: hidden;} 
 .postcard{
+    padding: 15px;
     background: white;
     width: 800px;
     margin: auto;
@@ -30,4 +41,13 @@ button{ background-color: #6e6e6e;}
 .footer{
     text-align: center;
     padding: 10px
+}
+input[type=text]{
+    border: none;
+    border-bottom: 1px solid gray;
+    
+}
+.postcard{
+    width: 500px;
+
 }
